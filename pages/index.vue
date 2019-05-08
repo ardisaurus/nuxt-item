@@ -8,7 +8,18 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head() {
+    return {
+      title: "Welcome",
+      meta: {
+        hid: "description",
+        name: "description",
+        content: "Simple CRUD"
+      }
+    };
+  }
+};
 </script>
 
 <style>
